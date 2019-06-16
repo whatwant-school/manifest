@@ -4,15 +4,15 @@
   <remote name="origin" fetch="https://github.com/whatwant-school/" review="https://github.com/whatwant-school/" />
   <default revision="master" remote="origin" sync-j="4" />
   
-  <project name="whatwant-school/repo-platform-1" path="platform/1" groups="platform" />
-  <project name="whatwant-school/repo-platform-2" path="platform/2" groups="platform" />
-  <project name="whatwant-school/repo-platform-3" path="platform/3" groups="platform" >
+  <project name="repo-platform-1" path="platform/1" groups="platform" />
+  <project name="repo-platform-2" path="platform/2" groups="platform" />
+  <project name="repo-platform-3" path="platform/3" groups="platform" >
     <copyfile src="sub/sub.txt" dest="root.txt" />
   </project>
 
-  <project name="whatwant-school/repo-product-1" path="product/1" groups="product" />
-  <project name="whatwant-school/repo-product-2" path="product/2" groups="product" />
-  <project name="whatwant-school/repo-product-3" path="product/3" groups="product" >
+  <project name="repo-product-1" path="product/1" groups="product" />
+  <project name="repo-product-2" path="product/2" groups="product" />
+  <project name="repo-product-3" path="product/3" groups="product" >
     <linkfile src="root.txt" dest="sub/root.txt" />
   </project>
 
